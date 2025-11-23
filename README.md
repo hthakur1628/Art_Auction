@@ -83,12 +83,6 @@ python -m http.server 8000
 
 ```
 kunsthaus-auction-platform/
-├── backend/                    # Flask Backend API
-│   ├── app.py                 # Main application (911 lines)
-│   ├── requirements.txt       # Python dependencies
-│   ├── instance/              # Database files
-│   │   └── kunsthaus.db      # SQLite database
-│   └── seed.py               # Database seeding script
 ├── kunsthaus-canvas-bids/     # Frontend Application
 │   ├── index.html            # Landing page with hero section
 │   ├── gallery.html          # Artwork browsing with filters
